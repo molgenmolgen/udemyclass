@@ -136,3 +136,39 @@
 // console.log(arr8);
 // arr8[0] = 100;
 // console.log(arr4);
+
+/**
+ * mapやfilter を使った配列の処理
+ */
+// const nameArr = ["田中", "＂山田", "じゃけえ"];
+// // const nameArr2 = nameArr.map((name) => {
+// //   return name + "うんち";
+// // });
+// // console.log(nameArr2);
+// // nameArr.map((name, index) => console.log(`${index + 1}番目は${name}です`));
+
+// // const numArr = [1, 2, 3, 4, 5];
+// // const newNumArr = numArr.filter((num) => {
+// //   return num % 2 === 1;
+// // });
+// // console.log(newNumArr)
+
+// const newNameArr = nameArr.map((name) => {
+//   if (name === "じゃけえ") {
+//     return name;
+//   } else {
+//     return `${name}さん`;
+//   }
+// });
+// console.log(newNameArr);
+
+//論理演算子のやつとんだから動画見て復習
+
+// const num = null;
+// // 　左側がflaseなら
+// const fee = num || "金額未設定です";
+// console.log(fee);
+// const num2 = null;
+// // &&川がtrue なら右側を返す
+// const fee2 = num2 && "何か設定されました";
+// console.log(fee2);
